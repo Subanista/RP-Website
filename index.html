@@ -1,0 +1,957 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Dialysis Mobile Care App</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+  <link rel="stylesheet" href="assets/css/videoslider.css">
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link
+    href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+    rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
+  <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <!-- ======= Top Bar ======= -->
+  <div id="topbar" class="d-flex align-items-center fixed-top">
+    <div class="container d-flex justify-content-between">
+      <div class="contact-info d-flex align-items-center">
+        <i class="bi bi-envelope"></i> <a href="mailto:contact@example.com">dialysiscare12@gmail.com</a>
+        <i class="bi bi-phone"></i> +94 752491313
+      </div>
+      <div class="d-none d-lg-flex social-links align-items-center">
+        <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
+        <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
+        <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
+        <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></i></a>
+      </div>
+    </div>
+  </div>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top">
+    <div class="container d-flex align-items-center">
+
+      <!--<h1 class="logo me-auto"><a href="index.html">The Taurus</a></h1>
+      -->
+      <a href="index.html" class="logo me-auto"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>
+
+      <nav id="navbar" class="navbar order-last order-lg-0">
+        <ul>
+          <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
+          <li><a class="nav-link scrollto" href="#about">About</a></li>
+          <li><a class="nav-link scrollto" href="#scope">Scope</a></li>
+          <li><a class="nav-link scrollto" href="#milestones">Milestones</a></li>
+          <li><a class="nav-link scrollto" href="#documents">Documentation</a></li>
+          <li><a class="nav-link scrollto" href="#presentations">Presentations</a></li>
+          <li><a class="nav-link scrollto" href="#banner">Banner</a></li>
+          <li><a class="nav-link scrollto" href="#ourteam">Our Team</a></li>
+          <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
+    </div>
+  </header><!-- End Header -->
+
+  <!-- ======= Hero Section ======= -->
+  <section1 id="hero" class="home">
+    <video class="video-slide active" src="assets/videos/136458-764399870_tiny.mp4" autoplay muted loop></video>
+    <video class="video-slide" src="assets/videos/144034-784164371_tiny.mp4" autoplay muted loop></video>
+    <video class="video-slide" src="assets/videos/34619-402634248_tiny.mp4" autoplay muted loop></video>
+    <div class="content">
+        <h1>Welcome To The <span>Dialysis Mobile Care </span></h1>
+        <p>Daily routines of kidney patients and analyze their medical reports</p>
+        <a href="#about">Read More</a>
+    </div>
+    <div class="media-icons">
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+    </div>
+    <div class="slider-navigation" style="pointer-events: none;">
+        <div class="nav-btn active"></div>
+        <div class="nav-btn"></div>
+        <div class="nav-btn"></div>
+        <div class="nav-btn"></div>
+    </div>
+</section1>
+
+<script type="text/javascript">
+    const slides = document.querySelectorAll(".video-slide");
+    let currentSlide = 0;
+
+    // Function to change the active slide
+    function changeSlide() {
+        slides.forEach((slide) => {
+            slide.classList.remove("active");
+        });
+
+        currentSlide = (currentSlide + 1) % slides.length;
+
+        slides[currentSlide].classList.add("active");
+    }
+
+    // Set an interval to automatically change the slide every 5 seconds
+    const interval = setInterval(changeSlide, 4000);
+</script>
+
+
+
+<!-- End Hero -->
+
+  <main id="main">
+
+    <!-- ======= Why Us Section ======= -->
+    <section id="why-us" class="why-us">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3 d-flex align-items-stretch">
+            <div class="content d-flex flex-column justify-content-center">
+              <br><br>
+              <h3>Why Choose The Dialysis Mobile Care App?</h3>
+              <p>
+                Chronic kidney disease (CKD) is a progressive condition that affects millions worldwide, leading to a significant decline in quality of life and increased healthcare costs. Dialysis, a critical treatment for CKD, necessitates strict adherence to medical guidelines and lifestyle adjustments. However, managing these aspects can be overwhelming for patients. A mobile application designed specifically for dialysis care can bridge this gap, offering personalized support, improving patient outcomes, and enhancing their overall well-being. This application aims to provide comprehensive care through meal planning, symptom monitoring, vital sign tracking, fluid management, and seamless communication with healthcare providers.
+
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-9 d-flex align-items-stretch">
+            <div class="icon-boxes d-flex flex-column justify-content-center">
+              <div class="row">
+                <div class="col-xl-3 d-flex align-items-stretch">
+                  <div class="icon-box mt-4 mt-xl-0">
+                    <i class="bx bx-text"></i>
+                    <h5>Food detection and measure the urine out and water intake</h5>
+                    <p>Tailored meal plans considering dietary restrictions essential for dialysis patients.Ensure proper nutrition while avoiding foods that may exacerbate kidney issues.Database of renal-friendly recipes, daily/weekly meal planning, and dietary recommendations based on individual health metrics.</p>
+                  </div>
+                </div>
+                <div class="col-xl-3 d-flex align-items-stretch">
+                  <div class="icon-box mt-4 mt-xl-0">
+                    <i class="bx bx-user-voice"></i>
+                    <h5>Dialysis Patients Conditions  Analysis System (DPCAS)</h5>
+                    <p>Continuous monitoring of vital signs such as heart rate, SpO2, and glucose levels.Provide real-time data to Integration with wearable devices, real-time data visualization, and trend analysis.</p>
+                  </div>
+                </div>
+                <div class="col-xl-3 d-flex align-items-stretch">
+                  <div class="icon-box mt-4 mt-xl-0">
+                    <i class="bx bx-navigation"></i>
+                    <h5>Symptoms checker and Dialysis scheduling </h5>
+                    <p>Utilization of image recognition technology to detect noticeable changes in skin tone indicative of CKD.Early detection of potential complications or disease progression.Regular prompts for users to capture images of their skin, analysis using machine learning algorithms, and alerts for any significant changes.</p>
+                  </div>
+                </div>
+                
+                <div class="col-xl-3 d-flex align-items-stretch">
+                  <div class="icon-box mt-4 mt-xl-0">
+                    <i class="bx bx-images"></i>
+                    <h5>Chatbot for interact with doctor and inter patients </h5>
+                    <p>An AI-powered chatbot to facilitate easy communication between patients and healthcare providers.Provide instant support, answer queries, and schedule appointments.Natural language processing for patient queries, automated responses, and direct messaging to medical staff. 
+                    </p>
+                  </div>
+                </div><!-- End .content-->
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section><!-- End Why Us Section -->
+
+    <!-- ======= About Section ======= -->
+    <section id="about" class="about section-bg">
+      <div class="container-fluid">
+        <div class="section-title">
+          <h2>About the Project</h2>
+          <p>Read our research domain details here</p>
+        </div>
+        <div class="row">
+          <div class="col-xl-5 col-lg-6 image-box d-flex justify-content-center align-items-stretch position-relative">
+          </div>
+          <div
+            class="col-xl-7 col-lg-6 icon-boxes d-flex flex-column align-items-stretch justify-content-center py-5 px-lg-5">
+            <h3>Introducing the Dialysis Care Mobile App: A groundbreaking solution transforming dialysis care in Sri Lanka. Harnessing the cutting-edge power of Machine Learning and the Internet of Things, this app redefines treatment management and monitoring, offering a brighter future for chronic kidney disease patients and medical professionals. Welcome to a revolution in healthcare.</h3>
+
+            <p>
+Chronic kidney disease (CKD) is a progressive condition that affects millions worldwide, leading to a significant decline in quality of life and increased healthcare costs. Dialysis, a critical treatment for CKD, necessitates strict adherence to medical guidelines and lifestyle adjustments. However, managing these aspects can be overwhelming for patients. A mobile application designed specifically for dialysis care can bridge this gap, offering personalized support, improving patient outcomes, and enhancing their overall well-being. This application aims to provide comprehensive care through meal planning, symptom monitoring, vital sign tracking, fluid management, and seamless communication with healthcare providers.
+
+            </p>
+          </div>
+        </div>
+      </div>
+    </section><!-- End About Section -->
+
+    <!-- ======= Scope Section ======= -->
+    <section id="scope" class="scope">
+      <div class="container">
+        <div class="section-title">
+          <h2>Research Project Scope</h2>
+          <p>Read our research domain details here</p>
+        </div>
+        <div class="row gy-4">
+          <div class="col-lg-3">
+            <ul class="nav nav-tabs flex-column">
+              <li class="nav-item">
+                <a class="nav-link active show" data-bs-toggle="tab" href="#tab-1">
+                  <h5><i class='bx bxs-hand-right'></i> Literature Survey</h5>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" data-bs-toggle="tab" href="#tab-2">
+                  <h5><i class='bx bxs-hand-right'></i> Research Gap</h5>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" data-bs-toggle="tab" href="#tab-3">
+                  <h5><i class='bx bxs-hand-right'></i> Research Problem</h5>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" data-bs-toggle="tab" href="#tab-4">
+                  <h5><i class='bx bxs-hand-right'></i> Objectives</h5>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" data-bs-toggle="tab" href="#tab-5">
+                  <h5><i class='bx bxs-hand-right'></i> Methodology</h5>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" data-bs-toggle="tab" href="#tab-6">
+                  <h5><i class='bx bxs-hand-right'></i> Tools & Technologies</h5>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-lg-9">
+            <div class="tab-content">
+              <div class="tab-pane active show" id="tab-1">
+                <div class="row gy-4">
+                  <h3>Literature Survey</h3>
+                  <div class="col-lg-8 text-center order-1 order-lg-2">
+                    <img src="assets/img/blind3.jpg" alt="" class="img-fluid">
+                  </div>
+                  <div class="col-lg-12 details order-2 order-lg-1">
+                    
+                    <p>Mobile Health Applications:Numerous apps exist for general health monitoring, but few focus specifically on dialysis patients' needs.
+Dietary Management:Apps like MyFitnessPal offer dietary tracking, but lack specific recommendations for renal diets.
+Symptom Monitoring:Some applications provide symptom tracking; however, their efficacy in early detection of CKD-related changes is limited.
+Fluid Management:Current fluid tracking tools are often generic and not tailored to the specific needs of CKD patients.
+Telemedicine:There are various telemedicine platforms, but integrating a chatbot specifically designed for CKD patients remains underexplored.
+                      </p>
+                  </div>
+                  
+                </div>
+              </div>
+              <div class="tab-pane" id="tab-2">
+                <div class="row gy-4">
+                  <h3>Research Gap</h3>
+                  <div class="col-lg-12 details order-2 order-lg-1">
+                    
+                    <p>The existing mobile health solutions do not comprehensively address the multifaceted needs of dialysis patients. There is a lack of integration among dietary management, vital signs tracking, symptom detection, fluid management, and communication tools in a single, user-friendly application tailored for CKD patients.
+                    </p>
+                  </div>
+                  <div class="col-lg-8 text-center order-1 order-lg-2">
+                    <img src="assets/img/blind2.jpg" alt="" class="img-fluid">
+                  </div>
+                </div>
+              </div>
+              <div class="tab-pane" id="tab-3">
+                <div class="row gy-4">
+                  <h3>Research Problem</h3>
+                  <div class="col-lg-8 details order-2 order-lg-1">
+                    
+                    <p class="fst-italic">To develop a comprehensive mobile application that integrates dietary planning, symptom monitoring, vital sign tracking, fluid management, and seamless communication with healthcare providers to improve the quality of life and health outcomes for dialysis patients.
+
+                    </p>
+                  </div>
+                  <div class="col-lg-4 text-center order-1 order-lg-2">
+                    <img src="assets/img/researchproblem.jpg" alt="" class="img-fluid">
+                  </div>
+                </div>
+              </div>
+              <div class="tab-pane" id="tab-4">
+                <div class="row gy-4">
+                  <h3>Research Objectives</h3>
+                  <div class="col-lg-6 details order-2 order-lg-1">
+                    
+                    <p class="fst-italic"><h5>Main Objective</h5></p>
+                    <p>1.Design and Develop:Create an intuitive mobile application tailored to dialysis patients' needs.</p>
+<p>2.Integrate Features:Combine meal planning, symptom detection, vital signs monitoring, fluid management, and communication tools.</p>
+<p>3.Enhance User Experience: Ensure the application is user-friendly and accessible to patients with varying levels of technical expertise.</p>
+<p>4. Improve Health Outcomes: Facilitate better health management and early detection of complications.</p>
+
+
+                    <p class="fst-italic"><h5>Sub Objectives</h5></p>
+                    <p>Food detection and measure the urine out and water intake </p>
+                    <p>Dialysis Patients Conditions  Analysis System (DPCAS)</p>
+                    <p>symptoms checker and Dialysis scheduling</p>
+                    <p>Chatbot for interact with doctor and inter patients </p>
+                  </div>
+                  <div class="col-lg-6 text-center order-1 order-lg-2">
+                    <img src="assets/img/ocr.jpg" alt="" class="img-fluid">
+                    <br>
+                    <hr>
+                    <img src="assets/img/tts.jpg" alt="" class="img-fluid">
+                    <br>
+                    <hr>
+                    <img src="assets/img/obj.jpg" alt="" class="img-fluid">
+                    <br>
+                    <hr>
+                    <img src="assets/img/imges.png" alt="" class="img-fluid">
+                    <br>
+                    <br>
+                  </div>
+                </div>
+              </div>
+              <div class="tab-pane" id="tab-5">
+                <div class="row gy-4">
+                  <h3>Methodology</h3>
+                  <div class="col-lg-12 details order-2 order-lg-1">
+                    
+                    <p>1.Literature Review:Conduct a thorough review of existing mobile health applications, dietary guidelines for CKD, symptom detection technologies, vital signs monitoring devices, and telecommunication tools.</p>
+<p>2. Requirement Gathering:Engage with dialysis patients, nephrologists, dietitians, and other stakeholders to gather detailed requirements and preferences.</p>
+<p> 3.Application Design:Develop wireframes and prototypes based on user requirements and best practices in mobile health application design.</p>
+<p> 4.Development: Use agile methodologies to develop the application in phases, incorporating feedback from end-users at each stage. </p>
+<p> 5. Testing:Perform rigorous testing, including usability testing with dialysis patients and technical testing to ensure reliability and accuracy of features. </p>
+<p> 6. Deployment: Launch the application on major mobile platforms and conduct a pilot study to evaluate its effectiveness. </p>
+<p> 7. Evaluation and Improvement: Collect user feedback and health outcome data to continuously improve the application. </p>
+                    
+                  </div>
+                  <div class="col-lg-8 text-center order-1 order-lg-2">
+                    <img src="assets/img/blind1.jpg" alt="" class="img-fluid">
+                  </div>
+                </div>
+              </div>
+              <div class="tab-pane" id="tab-6">
+                <div class="row gy-4">
+                  <h3>Tools & Technologies</h3>
+                  <div class="col-lg-4 details order-2 order-lg-1">
+                    
+                    
+                    <p>Python</p>
+                    <p>React Native</p>
+                    <p>Python 3.8</p>
+                    <p>Fast API</p>
+                    <p>Jupyter Notebook</p>
+                    <p>Anaconda Navigator</p>
+                    <p>Postman API Platform</p>
+                    <p>VS Code</p>
+                    <p>Figma UI/UX</p>
+                    <p>GitLab</p>
+                    <p>TensorFlow</p>
+
+                  </div>
+                  <div class="col-lg-4 text-center order-1 order-lg-2">
+                    <img src="assets/img/images.png" alt="" class="img-fluid">
+                    <img src="assets/img/pyjupyanaconda.jpg" alt="" class="img-fluid">
+                    <img src="assets/img/Postman.jpg" alt="" class="img-fluid">
+                  </div>
+                  <div class="col-lg-4 text-center order-1 order-lg-2">
+                    <img src="assets/img/postman.png" alt="" class="img-fluid">
+                    <img src="assets/img/figma.png" alt="" class="img-fluid">
+                    <img src="assets/img/git.png" alt="" class="img-fluid">
+                    <img src="assets/img/download.png" alt="" class="img-fluid">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End Scope Section -->
+
+    <!-- ======= Milestones Section ======= -->
+    <section id="milestones" class="milestones">
+      <div class="container">
+
+        <div class="row">
+          <!-- <div class="col-lg-4"> -->
+          <div class="section-title">
+            <h2>Milestones</h2>
+          </div>
+          <!-- </div> -->
+
+          <div class="row">
+            <div class="col-xl-4">
+              <div class="icon-box" data-aos="zoom-in" data-aos-delay="100">
+                <div class="icon"><i class="fas fa-file-powerpoint"></i></div>
+                <h4><a href="https://docs.google.com/presentation/d/1utoeVLj-uC3APo2vTb-aiFkXi2P32ZzN/edit?usp=drive_link&ouid=117768985312043002401&rtpof=true&sd=true" target="_blank">Project Proposal</a></h4>
+                <p>Proposal presentation and the proposal report submission.</p><br>
+                <p>Marks Allocated : 12%</p>
+              </div>
+            </div>
+
+            <div class="col-xl-4">
+              <div class="icon-box" data-aos="zoom-in" data-aos-delay="200">
+                <div class="icon"><i class="fas fa-file-powerpoint"></i></div>
+                <h4><a href="https://docs.google.com/presentation/d/1g_4wVS7mS5exlqfbuYOzpemyKr9QbxTg/edit?usp=drive_link&ouid=117768985312043002401&rtpof=true&sd=true" target="_blank">Progress Presentation 1</a></h4>
+                <p>50% progress presentation of the research project.</p><br>
+                <p>Marks Allocated : 15%</p>
+              </div>
+            </div>
+
+            <div class="col-xl-4">
+              <div class="icon-box" data-aos="zoom-in" data-aos-delay="300">
+                <div class="icon"><i class="fas fa-file-powerpoint"></i></div>
+                <h4><a href="https://docs.google.com/presentation/d/1g_4wVS7mS5exlqfbuYOzpemyKr9QbxTg/edit?usp=drive_link&ouid=117768985312043002401&rtpof=true&sd=true" target="_blank">Progress Presentation 2</a></h4>
+                <p>90% progress presentation of the research project.</p><br>
+                <p>Marks Allocated : 18%</p>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+
+            <div class="col-xl-4 mt-4">
+              <div class="icon-box" data-aos="zoom-in" data-aos-delay="400">
+                <div class="icon"><i class="fas fa-file-powerpoint"></i></div>
+                <h4><a href="https://drive.google.com/drive/folders/1SK_ssWBfCcG2NLryjzY_n6Z4ktoUiVlr?usp=sharing" target="_blank">Demonstration</a></h4>
+                <p>Submission and presentation of the camera-ready research poster. </p><br>
+                <p>Marks Allocated : 10%</p>
+              </div>
+            </div>
+
+            <div class="col-xl-4 mt-4">
+              <div class="icon-box" data-aos="zoom-in" data-aos-delay="400">
+                <div class="icon"><i class="fas fa-file-powerpoint"></i></div>
+                <h4><a href="https://docs.google.com/presentation/d/1c3-0HY_1hUnvwbUfc0HBy0mBOJ8WVkJi/edit?usp=sharing&ouid=116023111303352942051&rtpof=true&sd=true" target="_blank">FInal Assessment</a></h4>
+                <p>Submission of final reports and the final presentation of the research. </p><br>
+                <p>Marks Allocated : 10%</p>
+              </div>
+            </div>
+
+            <div class="col-xl-4 mt-4">
+              <div class="icon-box" data-aos="zoom-in" data-aos-delay="400">
+                <div class="icon"><i class="fas fa-users"></i></div>
+                <h4><a href="https://drive.google.com/drive/folders/1kqiaOKZekJ9Zmjh43ZfUMZcK9bEJfJHe?usp=sharing" target="_blank">Viva</a></h4>
+                <p>Final viva of the research Commerclization Video with an User Testing and Research Team Member. </p><br>
+                <p>Marks Allocated : 10%</p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+      </div>
+      </div>
+    </section>
+    <!-- End Milestones Section -->
+
+
+    <!-- ======= Documentation Section =======-->
+    <section id="documents" class="documents section-bg">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>Documentation</h2>
+        </div>
+
+        <div class="row gy-4">
+          <div class="col-lg-3">
+            <ul class="nav nav-tabs flex-column">
+              <li class="nav-item">
+                <a class="nav-link active show" data-bs-toggle="tab" href="#tab-7">
+                  <h5>Project TAF</h5>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" data-bs-toggle="tab" href="#tab-8">
+                  <h5>Proposal Document</h5>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" data-bs-toggle="tab" href="#tab-9">
+                  <h5>Research Logbook</h5>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" data-bs-toggle="tab" href="#tab-10">
+                  <h5>Status Document I</h5>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" data-bs-toggle="tab" href="#tab-11">
+                  <h5>Status Document II</h5>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" data-bs-toggle="tab" href="#tab-12">
+                  <h5>Final Report</h5>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-lg-9">
+            <div class="tab-content">
+              <div class="tab-pane active show" id="tab-7">
+                <div class="row gy-4">
+                  <div class="col-lg-8 details order-2 order-lg-1">
+                    <h3>Project TAF</h3>
+                    <p><h4>
+                      Click Here to View the Project Charter Document</h4>
+                     </p>
+                     <p><h4><a href="https://drive.google.com/file/d/1vkSdGdw9pPl_04NndfuLyyPUtx0f8Bws/view?usp=drive_link " target="_blank"><i class='bx bxs-hand-right'></i> 2024-92_TAF</a></h4></p>
+                  </div>
+                  <div class="col-lg-4 text-center order-1 order-lg-2">
+                    <img src="assets/img/departments-1.jpg" alt="" class="img-fluid">
+                  </div>
+                </div>
+              </div>
+              <div class="tab-pane" id="tab-8">
+                <div class="row gy-4">
+                  <div class="col-lg-8 details order-2 order-lg-1">
+                    <h3>Proposal Document</h3>
+                    <p>
+                      <h4>Access the Individual Proposal Documents Using Following Links</h4>
+                    </p>
+                    <p><h4><a href="https://docs.google.com/document/d/1cN0wQoZJZz2vwixV80zZdazF4LPVHtoG/edit?usp=drive_link&ouid=117768985312043002401&rtpof=true&sd=true" target="_blank"><i class='bx bxs-hand-right'></i> IT20666088_Sajith R.M<a></h4></p>
+                    <p><h4><a href="https://docs.google.com/document/d/1QioMvypisaRIllFnvZDXzKgZJAkdb-gY/edit?usp=drive_link&ouid=117768985312043002401&rtpof=true&sd=true" target="_blank"><i class='bx bxs-hand-right'></i> IT20301422_Ahamed A.R.A</a></h4></p>
+                    <p><h4><a href="https://drive.google.com/file/d/196ov12n2z6dbWFiDiO013_mg_iGaaDxR/view?usp=drive_link" target="_blank"><i class='bx bxs-hand-right'></i> IT20620448_Akmal M.A.M</a></h4></p>
+                    <p><h4><a href="https://docs.google.com/document/d/1FudDcvaVN4Ji6Rp7MnrtauFPQm5Sigmq/edit?usp=drive_link&ouid=117768985312043002401&rtpof=true&sd=true" target="_blank"><i class='bx bxs-hand-right'></i> IT20660970_Subanista .T</a></h4></p>
+                  </div>
+                  <div class="col-lg-4 text-center order-1 order-lg-2">
+                    <img src="assets/img/" alt="" class="img-fluid">
+                  </div>
+                </div>
+              </div>
+              <div class="tab-pane" id="tab-9">
+                <div class="row gy-4">
+                  <div class="col-lg-8 details order-2 order-lg-1">
+                    <h3>Research Logbook</h3>
+                    <p><h4>
+                      Access the Research Logbook Documents Using Following Links</h4>
+                    </p>
+                      <p><h4><a href="https://drive.google.com/file/d/1XOKtRD6YcHgq7LyRXTtk7CuvQXs1yPeW/view?usp=sharing" target="_blank"><i class='bx bxs-hand-right'></i> IT20146238_Jayathunga T.M.<a></h4></p>
+                      <p><h4><a href="https://drive.google.com/file/d/18ynkCMv4rTcvY6GAAzwRD_TBbvvYw1OH/view?usp=sharing" target="_blank"><i class='bx bxs-hand-right'></i> IT20241346_Semini J.P.D.L.</a></h4></p>
+                      <p><h4><a href="https://drive.google.com/file/d/1XOKtRD6YcHgq7LyRXTtk7CuvQXs1yPeW/view?usp=sharing" target="_blank"><i class='bx bxs-hand-right'></i> IT20129712_Godakanda P.G.S.</a></h4></p>
+                      <p><h4><a href="https://drive.google.com/file/d/1NOPRIdYNOjMfjQMXdyzGQIR-KMhLhPgg/view?usp=sharing" target="_blank"><i class='bx bxs-hand-right'></i> IT20254520_Bhagya H.D.M.</a></h4></p>
+                    </div>
+                  <div class="col-lg-4 text-center order-1 order-lg-2">
+                    <img src="assets/img/" alt="" class="img-fluid">
+                  </div>
+                </div>
+              </div>
+              <div class="tab-pane" id="tab-10">
+                <div class="row gy-4">
+                  <div class="col-lg-8 details order-2 order-lg-1">
+                    <h3>Status Document I</h3>
+                    <p><h4>
+                      Access Status Document_I Using Following Links</h4>
+                    </p>
+                      <p><h4><a href="https://docs.google.com/document/d/1Nksqg3RsfvQrnA7BCSiNLCBknSgxVlHN/edit?usp=drive_link&ouid=117768985312043002401&rtpof=true&sd=true" target="_blank"><i class='bx bxs-hand-right'></i> IT20666088_Sajith R.M<a></h4></p>
+                    <p><h4><a href="https://docs.google.com/document/d/1pJGepVIDUjsQg4RlPdglmDyUl_5U_Tmr/edit?usp=drive_link&ouid=117768985312043002401&rtpof=true&sd=true" target="_blank"><i class='bx bxs-hand-right'></i> IT20301422_Ahamed A.R.A</a></h4></p>
+                    <p><h4><a href="https://docs.google.com/document/d/1ykSCA5Q2zuavkhEq6h-5IFc8HDFJVdap/edit?usp=drive_link&ouid=117768985312043002401&rtpof=true&sd=true" target="_blank"><i class='bx bxs-hand-right'></i> IT20620448_Akmal M.A.M</a></h4></p>
+                    <p><h4><a href="https://docs.google.com/document/d/1B-QPMawTX_qigInMnwUmRA_9GuCMJwSx/edit?usp=drive_link&ouid=117768985312043002401&rtpof=true&sd=true" target="_blank"><i class='bx bxs-hand-right'></i> IT20660970_Subanista .T</a></h4></p>
+                    </div>
+                  <div class="col-lg-4 text-center order-1 order-lg-2">
+                    <img src="assets/img/" alt="" class="img-fluid">
+                  </div>
+                </div>
+              </div>
+              <div class="tab-pane" id="tab-11">
+                <div class="row gy-4">
+                  <div class="col-lg-8 details order-2 order-lg-1">
+                    <h3>Status Document II</h3>
+                    <p><h4>
+                      Access Status Document_II Using Following Links</h4>
+                    </p>
+                      <p><h4><a href="https://docs.google.com/document/d/1tucMCGYOdmstWyBvoKdPBGlJywVgKIei/edit?usp=drive_link&ouid=117768985312043002401&rtpof=true&sd=true" target="_blank"><i class='bx bxs-hand-right'></i> IT20666088_Sajith R.M<a></h4></p>
+                    <p><h4><a href="https://docs.google.com/document/d/1I_ZlJhHr95ShMinHwmYTgGCV86Qndn6y/edit?usp=drive_link&ouid=117768985312043002401&rtpof=true&sd=true" target="_blank"><i class='bx bxs-hand-right'></i> IT20301422_Ahamed A.R.A</a></h4></p>
+                    <p><h4><a href="https://docs.google.com/document/d/1mILzEqwQO4iKjQvTb3XVn-m-izWWxoL5/edit?usp=drive_link&ouid=117768985312043002401&rtpof=true&sd=true" target="_blank"><i class='bx bxs-hand-right'></i> IT20620448_Akmal M.A.M</a></h4></p>
+                    <p><h4><a href="https://docs.google.com/document/d/1NhTkcqgjbFDQqhirod46_zdpfEy8UC8T/edit?usp=drive_link&ouid=117768985312043002401&rtpof=true&sd=true" target="_blank"><i class='bx bxs-hand-right'></i> IT20660970_Subanista .T</a></h4></p>
+                    </div>
+                  <div class="col-lg-4 text-center order-1 order-lg-2">
+                    <img src="assets/img/" alt="" class="img-fluid">
+                  </div>
+                </div>
+              </div>
+              <div class="tab-pane" id="tab-12">
+                <div class="row gy-4">
+                  <div class="col-lg-8 details order-2 order-lg-1">
+                    <h3>Final Reports</h3>
+                    <p><h4>
+                      Access the Final Group Report Using Following Link</h4>
+                    </p>
+                      <p><h4><a href="https://drive.google.com/file/d/127hoDY_LnJuG0VD14-70LIynoZhOGfP6/view?usp=sharing" target="_blank"><i class='bx bxs-hand-right'></i> 2024-92_Group_Report</a></h4></p>
+                        <p><h4>
+                          Access the Individual Final Reports Using Following Links</h4>
+                        </p>
+                         <p><h4><a href="https://drive.google.com/file/d/1MOjGlA7A2P-FvVKPP8qJLdvUUAMQzGYv/view?usp=drive_link" target="_blank"><i class='bx bxs-hand-right'></i> IT20666088_Sajith R.M<a></h4></p>
+                    <p><h4><a href="https://drive.google.com/file/d/1f3oxGW0a0A91Ww3kLzX9USDoKJY9akht/view?usp=drive_link" target="_blank"><i class='bx bxs-hand-right'></i> IT20301422_Ahamed A.R.A</a></h4></p>
+                    <p><h4><a href=" https://drive.google.com/file/d/196ov12n2z6dbWFiDiO013_mg_iGaaDxR/view?usp=drive_link" target="_blank"><i class='bx bxs-hand-right'></i> IT20620448_Akmal M.A.M</a></h4></p>
+                    <p><h4><a href="https://drive.google.com/file/d/1Zw8EbRQ1djXIxYn28qjvRkUxwH9XTImY/view?usp=drive_link" target="_blank"><i class='bx bxs-hand-right'></i> IT20660970_Subanista .T</a></h4></p>
+                    </div>
+                  <div class="col-lg-4 text-center order-1 order-lg-2">
+                    <img src="assets/img/" alt="" class="img-fluid">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+    <!-- End Documentation Section -->
+
+    <!-- ======= Presentation Section ======= -->
+    <section id="presentations" class="presentations">
+      <div class="container-fluid">
+
+        <div class="row">
+          <div class="col-xl-5 col-lg-6 video-box d-flex justify-content-center align-items-stretch position-relative">
+          </div>
+
+          <div
+            class="col-xl-7 col-lg-6 icon-boxes d-flex flex-column align-items-stretch justify-content-center py-5 px-lg-5">
+            <div class="section-title">
+              <h2>Presentations</h2>
+              <p>View Our Presentations Here</p>
+            </div>
+
+            <div class="icon-box">
+              <div class="icon"><i class="bx bx-slideshow"></i></div>
+              <h4 class="title"><a href="https://docs.google.com/presentation/d/1utoeVLj-uC3APo2vTb-aiFkXi2P32ZzN/edit?usp=drive_link&ouid=117768985312043002401&rtpof=true&sd=true" target="_blank"><i class='bx bxs-hand-right'></i> Proposal Presentation</a></h4>
+              <p class="description">Click to View the Proposal Presentation</p>
+            </div>
+
+            <div class="icon-box">
+              <div class="icon"><i class="bx bx-slideshow"></i></div>
+              <h4 class="title"><a href="https://docs.google.com/presentation/d/1g_4wVS7mS5exlqfbuYOzpemyKr9QbxTg/edit?usp=drive_link&ouid=117768985312043002401&rtpof=true&sd=true" target="_blank"><i class='bx bxs-hand-right'></i> Progress Presentation I</a></h4>
+              <p class="description">Click to View the Progress Presentation I - 50% Completion</p>
+            </div>
+
+            <div class="icon-box">
+              <div class="icon"><i class="bx bx-slideshow"></i></div>
+              <h4 class="title"><a href="https://docs.google.com/presentation/d/1g_4wVS7mS5exlqfbuYOzpemyKr9QbxTg/edit?usp=drive_link&ouid=117768985312043002401&rtpof=true&sd=true" target="_blank"><i class='bx bxs-hand-right'></i> Progress Presentation II</a></h4>
+              <p class="description">Click to View the Progress Presentation II - 90% Completion</p>
+            </div>
+
+            <div class="icon-box">
+              <div class="icon"><i class="bx bx-slideshow"></i></div>
+              <h4 class="title"><a href="https://docs.google.com/presentation/d/1g_4wVS7mS5exlqfbuYOzpemyKr9QbxTg/edit?usp=drive_link&ouid=117768985312043002401&rtpof=true&sd=true" target="_blank"><i class='bx bxs-hand-right'></i> Final Presentation</a></h4>
+              <p class="description">Click to View the Final Presentation- 100% Completion</p>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </section>
+    <!-- End Presentation Section -->
+
+     <!-- ======= Banner Section ======= -->
+   <section id="banner" class="banner section-bg">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4">
+          <div class="section-title">
+            <h2>Banner</h2>     
+          </div>
+        </div>
+        <div class="col-lg-12">
+          <div class="row">
+            <img src="assets/img/2023-198-Poster.jpg">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section><!-- End Banner Section -->
+
+    <!-- ======= About Us Section ======= -->
+    <section id="ourteam" class="ourteam">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>Our Team</h2>
+        </div>
+
+        <div class="row">
+
+          <div class="col-lg-6">
+            <div class="member d-flex align-items-start">
+              <div class="pic"><img src="assets/img/team/supervisor.jpg" class="img-fluid" alt=""></div>
+              <div class="member-info">
+                <h4>DR.Dasuni Nawinna</h4>
+                <span>SUPERVISOR</span>
+                <p>Senior Professor</p>
+                <p>dasuni.n@sliit.lk
+                </p>
+                <p>FACULTY OF COMPUTING </p>
+                <div class="social">
+                  <a><i class="ri-twitter-fill"></i></a>
+                  <a><i class="ri-facebook-fill"></i></a>
+                  <a><i class="ri-instagram-fill"></i></a>
+                  <a href="https://www.linkedin.com/in/dasuni-nawinna-48a4907/" target="_blank"><i class="ri-linkedin-box-fill"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6">
+            <div class="member d-flex align-items-start">
+              <div class="pic"><img src="assets/img/team/karthiga mam.jpg" class="img-fluid" alt=""></div>
+              <div class="member-info">
+                <h4>Ms. Karthiga Rajendran</h4>
+                <span>Co-SUPERVISOR</span>
+                <p>Assistant Lecturer</p>
+                <p>karthiga.r@sliit.lk
+                </p>
+                <p>FACULTY OF COMPUTING </p>
+                <div class="social">
+                  <a><i class="ri-twitter-fill"></i></a>
+                  <a><i class="ri-facebook-fill"></i></a>
+                  <a><i class="ri-instagram-fill"></i></a>
+                  <a href="https://www.linkedin.com/in/karthiga-rajendran-6492b3171/" target="_blank"><i class="ri-linkedin-box-fill"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          
+          <div class="col-lg-6 mt-4">
+            <div class="member d-flex align-items-start">
+              <div class="pic"><img src="assets/img/team/WhatsApp Image 2024-06-13 at 23.12.27_68d1e92a.jpg" class="img-fluid" alt=""></div>
+              <div class="member-info">
+                <h4>Sajith R.M</h4>
+                <span>TEAM Leader</span>
+                <p>IT20666088</p>
+                <p>sajith0520@gmail.com
+                </p>
+                <p>FACULTY OF COMPUTING </p>
+                <div class="social">
+                  <a><i class="ri-twitter-fill"></i></a>
+                  <a><i class="ri-facebook-fill"></i></a>
+                  <a><i class="ri-instagram-fill"></i></a>
+                  <a href="https://www.linkedin.com/in/mohamed-sajith-27a41219b/" target="_blank"> <i class="ri-linkedin-box-fill"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6 mt-4">
+            <div class="member d-flex align-items-start">
+              <div class="pic"><img src="assets/img/team/WhatsApp Image 2023-06-20 at 22.41.04_3235e8be.jpg" class="img-fluid" alt=""></div>
+              <div class="member-info">
+                <h4>Ahamed A.R.A</h4>
+                <span>TEAM Member</span>
+                <p>IT20301422</p>
+                <p>ahamedathas12@gmail.com
+                </p>
+                <p>FACULTY OF COMPUTING </p>
+                <div class="social">
+                  <a><i class="ri-twitter-fill"></i></a>
+                  <a><i class="ri-facebook-fill"></i></a>
+                  <a><i class="ri-instagram-fill"></i></a>
+                  <a href="https://www.linkedin.com/in/athas-ahamed-8433a517b/" target="_blank"> <i class="ri-linkedin-box-fill"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6 mt-4">
+            <div class="member d-flex align-items-start">
+              <div class="pic"><img src="assets/img/team/WhatsApp Image 2024-06-13 at 23.12.19_2bb7e98b.jpg" class="img-fluid" alt=""></div>
+              <div class="member-info">
+                <h4>Akmal M.A.M</h4>
+                <span>TEAM Member</span>
+                <p>IT20620448</p>
+                <p>akmal.mam@gmail.com
+                </p>
+                <p>FACULTY OF COMPUTING </p>
+                <div class="social">
+                  <a><i class="ri-twitter-fill"></i></a>
+                  <a><i class="ri-facebook-fill"></i></a>
+                  <a><i class="ri-instagram-fill"></i></a>
+                  <a href="https://www.linkedin.com/in/akmal-aman-3227b3228/" target="_blank"> <i class="ri-linkedin-box-fill"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="col-lg-6 mt-4">
+            <div class="member d-flex align-items-start">
+              <div class="pic"><img src="assets/img/team/profile3copy.jpg" class="img-fluid" alt=""></div>
+              <div class="member-info">
+                <h4>Subanista .T</h4>
+                <span>TEAM MEMBER</span>
+                <p>IT20660970</p>
+                <p>subanista.t@gmail.com
+                </p>
+                <p>FACULTY OF COMPUTING </p>
+                <div class="social">
+                  <a><i class="ri-twitter-fill"></i></a>
+                  <a><i class="ri-facebook-fill"></i></a>
+                  <a><i class="ri-instagram-fill"></i></a>
+                  <a href="https://www.linkedin.com/in/subanista-thaneswaran/" target="_blank"> <i class="ri-linkedin-box-fill"></i> </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End about us Section -->
+
+
+    <!-- ======= Contact Section ======= -->
+    <section id="contact" class="contact">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4" data-aos="fade-right">
+            <div class="section-title">
+              <h2>Contact Us</h2>
+            </div>
+          </div>
+          <div class="col-lg-12">
+            <div class="row">
+              <div class="col-lg-12" data-aos="fade-up" data-aos-delay="100">
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3960.7985117576864!2d79.97075581477283!3d6.914677495003823!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae256db1a6771c5%3A0x2c63e344ab9a7536!2sSri%20Lanka%20Institute%20of%20Information%20Technology!5e0!3m2!1sen!2slk!4v1654861438602!5m2!1sen!2slk"
+                  width="100%" height="400px" style="border:0;" allowfullscreen="" loading="lazy"
+                  referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+                <div class="info mt-4">
+                  <i class="bi bi-geo-alt"></i>
+                  <h4>Location:</h4>
+                  <p>SLIIT Malabe Campus, New Kandy Rd, Malabe, SriLanka</p>
+                </div>
+                <div class="row">
+                  <div class="col-lg-6 mt-4">
+                    <div class="info">
+                      <i class="bi bi-envelope"></i>
+                      <h4>Email:</h4>
+                      <p>dialysiscare12@gmail.com</p>
+                    </div>
+                  </div>
+                  <div class="col-lg-6">
+                    <div class="info w-100 mt-4">
+                      <i class="bi bi-phone"></i>
+                      <h4>Call:</h4>
+                      <p> +94 752491313</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section><!-- End Contact Section -->
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+
+    <div class="footer-top">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-lg-4 col-md-6 footer-contact">
+            <h3>Dialysis Care</h3>
+            <p>
+              SLIIT Malabe Campus,
+              New Kandy Rd,
+              Malabe, SriLanka <br><br>
+              <strong>Phone:</strong> +94 752491313<br>
+              <strong>Email:</strong> dialysiscare12@gmail.com<br>
+            </p>
+          </div>
+
+          <div class="col-lg-2 col-md-6 footer-links">
+            <h4>Quick Links</h4>
+            <ul>
+              <li><i class="bx bx-chevron-right"></i> <a href="#hero">Home</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#about">About us</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#scope">Scope</a></li>
+            </ul>
+          </div>
+          <div class="col-lg-2 col-md-6 footer-links">
+            <h4>Documents</h4>
+            <ul>
+              <li><i class="bx bx-chevron-right"></i> <a href="#documents">Documentation</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#presentations">Presentations</a></li>
+            </ul>
+          </div>
+          <div class="col-lg-2 col-md-6 footer-links">
+            <h4>Useful Links</h4>
+            <ul>
+              <li><i class="bx bx-chevron-right"></i> <a href="#milestones">Milestones</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#banner">Banner</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#ourteam">Our Team</a></li>
+            </ul>
+          </div>
+          <div class="col-lg-2 col-md-6 footer-links">
+            <h4>Contact US</h4>
+            <ul>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">dialysiscare12@gmail.com</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">+94 77 5338 747</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">SLIIT Malabe Campus</a></li>
+              </ul>
+          </div> 
+        </div>
+      </div>
+    </div>
+
+    <div class="container d-md-flex py-4">
+
+      <div class="me-md-auto text-center text-md-start">
+        <div class="copyright">
+          &copy; Copyright <strong><span>Dialysis Care</span> 2024 </strong>. All Rights Reserved
+        </div>
+        <div class="credits">
+        </div>
+      </div>
+      <div class="social-links text-center text-md-right pt-3 pt-md-0">
+        <a class="twitter"><i class="bx bxl-twitter"></i></a>
+        <a class="facebook"><i class="bx bxl-facebook"></i></a>
+        <a class="instagram"><i class="bx bxl-instagram"></i></a>
+        <a href="https://github.com/athas-SWE" target="_blank" class="github"><i class="bx bxl-github"></i></a>
+        <a href="https://www.linkedin.com/in/athas-ahamed-8433a517b/" target="_blank" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+      </div>
+    </div>
+  </footer>
+  <!-- End Footer -->
+
+  <div id="preloader"></div>
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
+      class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
